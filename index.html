@@ -1,14 +1,22 @@
-<!doctype html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link href="/src/styles.css" rel="stylesheet">
-    <title>Vite App</title>
-  </head>
-  <body>
-    <div id="app"></div>
-    <script type="module" src="/src/main.js"></script>
-  </body>
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8" />
+  <title>Artykuły</title>
+</head>
+<body>
+  <h3>Lista artykułów:</h3>
+  <div id="articles"></div>
+  
+  <h3>Dodaj nowy artykuł:</h3>
+  <form id="articleForm">
+    <input type="text" id="title" placeholder="Wpisz tytuł..." required><br>
+    <input type="text" id="subtitle" placeholder="Wpisz podtytuł..." required><br>
+    <input type="text" id="author" placeholder="Wpisz autora..." required><br>
+    <textarea id="content" placeholder="Wpisz treść..." required></textarea><br>
+    <button type="submit">Dodaj</button>
+  </form>
+
+  <script type="module" src="/src/main.js"></script>
+</body>
 </html>

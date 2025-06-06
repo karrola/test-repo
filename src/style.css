@@ -1,5 +1,7 @@
-@import "tailwindcss";
+input{
+    margin-bottom: 1rem;
+}
 
-@theme {
-    --color-primary: #123524;
+textarea{
+    margin-bottom: 1rem;
 }
